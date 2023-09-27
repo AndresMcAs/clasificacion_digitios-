@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten
-from keras.utils.vis_utils import plot_model  # necesita matplotlib, pydot, graphviz
+from keras.utils.vis_utils import plot_model  
 
 # Cargar el conjunto de datos MNIST
 mnist = tf.keras.datasets.mnist
